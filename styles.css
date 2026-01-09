@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     display: flex;
     /* background-color: yellow; */
@@ -38,3 +42,31 @@ button{
     border: 0;
     color: white;
 }
+
+.hero-container{
+    background-image: url(./assets/hero-bg.png);
+    /* background-size: ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* .earlyAccess{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    background-color: #469165;
+    background-size:;
+} */
+/* .earlyAccess .dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: green;
+} */
