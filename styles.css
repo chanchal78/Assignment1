@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 120px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li{
+    font-size: larger;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    background-color: gray;
+    color: white;
+}
+button{
+    padding: 10px 16px;
+    font-weight: bold;
+    font-size: 1.10em;
+    border-radius: 5px;
+}
+#navbar-button button:hover{
+    background-color: blue;
+    box-shadow: 2px 2px 3px gray;
+    cursor: pointer;
+}
+#navbar-button button{
+    background-color: #469165;
+    border: 0;
+    color: white;
+}
