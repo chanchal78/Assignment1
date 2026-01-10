@@ -11,7 +11,7 @@ header{
     /* background-color: yellow; */
     justify-content: space-between;
     align-items: center;
-    padding: 15px 120px;
+    padding: 12px 120px;
     background-color: rgb(242, 242, 242);
 }
 nav ul{
@@ -24,7 +24,7 @@ nav ul a{
     color: black;
 }
 nav ul li{
-    font-size: larger;
+    /* font-size: larger; */
     font-weight: 600;
 }
 nav ul li a:hover{
@@ -34,7 +34,7 @@ nav ul li a:hover{
 button{
     padding: 10px 16px;
     font-weight: bold;
-    font-size: 1.10em;
+    font-size: 15px;
     border-radius: 5px;
 }
 #navbar-button button:hover{
@@ -78,7 +78,7 @@ button{
     color: #469165;
     border-radius: 100px;
     gap: 10px;
-    font-size: 1.20em;
+    font-size: 1.10em;
     ;
 }
 
@@ -86,15 +86,17 @@ button{
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    font-size: 80px;
+    font-size: 70px;
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     padding-top: 20px;
 }
 .hero-container p{
     max-width: 740px;
-    font-size: 1.25em;
+    font-size: 1.1em;
+    font-weight: 400;
     color: white;
     padding: 20px 0px;
+    line-height: 30px;
     /* align-items: center; */
 }
 
@@ -156,11 +158,11 @@ button{
     padding: 20px 0;
 }
 .cardSection h1{
-    font-size: 55px;
+    font-size: 45px;
     padding: 10px 0;
 }
 .cardSection p{
-    font-size: 1.20em;
+    /* font-size: 1.20em; */
     font-weight: 400;
     color: #627382;
     padding: 10px 0;
@@ -184,8 +186,8 @@ button{
 }
 .cardContainer{
     display: flex;
-    gap: 40px;
-    flex-wrap: wrap;
+    gap: 30px;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
     padding: 20px 0;
@@ -203,4 +205,57 @@ button{
     background-color: rgb(240, 239, 239);
     cursor: pointer;
     /* font-size: 1.2em; */
+}
+
+
+.brainSection{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    padding: 40px 0;
+}
+/* #brainImg{
+
+} */
+ #brainImg img{
+    max-width: 560px;
+ }
+.brainCard{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 30px;
+    min-width:50%
+}
+.brainCard ul{
+    list-style: none;
+}
+.brainCard h5{
+    font-size: 15px;
+    font-weight: 700;
+    color: #469165;
+    margin-bottom: 20px;
+}
+.brainCard h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.20;
+    margin-bottom: 20px;
+    max-width: 560px;
+}
+.brainCard p{
+    /* font-size: 12px; */
+    color: #627382;
+    max-width: 520px;
+    line-height: 1.5;
+}
+.brainCard li{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    /* line-height: 1.5; */
+    margin-bottom: 15px;
+    font-weight: 600;
 }
