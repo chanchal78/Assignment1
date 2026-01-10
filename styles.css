@@ -2,12 +2,17 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: 'Inter', sans-serif;
+}
+
 header{
     display: flex;
     /* background-color: yellow; */
     justify-content: space-between;
     align-items: center;
     padding: 15px 120px;
+    background-color: rgb(242, 242, 242);
 }
 nav ul{
     display: flex;
@@ -51,7 +56,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 90vh;
     align-items: center;
     text-align: center;
     background-size: contain;
@@ -120,7 +125,6 @@ button{
     color: ;
 } */
 
-
 .hero-container .playButton{
     display: inline-flex;
     align-items: center;
@@ -144,4 +148,59 @@ button{
     border-color: #469165;
     box-shadow: 0 0 3px white;
     /* border: transparent; */
+}
+
+
+.cardSection{
+    text-align: center;
+    padding: 20px 0;
+}
+.cardSection h1{
+    font-size: 55px;
+    padding: 10px 0;
+}
+.cardSection p{
+    font-size: 1.20em;
+    font-weight: 400;
+    color: #627382;
+    padding: 10px 0;
+}
+.card{
+    width: 270px;
+    height: 270px;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgb(222, 222, 222);
+    display: inline-flex;
+    flex-direction: column;
+    gap: 15px;
+    /* text-align: left; */
+    align-items: center;
+    justify-content: center;
+}
+.card h3{
+    font-size: 1.4em;
+}
+.cardContainer{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.card .icons{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(242, 88, 88);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card:hover{
+    background-color: rgb(240, 239, 239);
+    cursor: pointer;
+    /* font-size: 1.2em; */
 }
