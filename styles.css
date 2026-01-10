@@ -33,11 +33,12 @@ button{
     border-radius: 5px;
 }
 #navbar-button button:hover{
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
+    color: #469165;
     box-shadow: 2px 2px 3px gray;
     cursor: pointer;
 }
-#navbar-button button{
+#navbar-button button, .arrowButton{
     background-color: #469165;
     border: 0;
     color: white;
@@ -46,6 +47,7 @@ button{
 .hero-container{
     background-image: url(./assets/hero-bg.png);
     /* background-size: ; */
+    /* padding: ; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,18 +57,91 @@ button{
     background-size: contain;
     background-repeat: no-repeat;
 }
+.earlyAccess .dot{
+    width: 8px;
+    height: 8px;
+    background-color: #469165;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px green;
+    ;
+}
+.earlyAccess{
+    display: inline-flex;
+    padding: 5px 15px;
+    align-items: center;
+    background-color: white;
+    color: #469165;
+    border-radius: 100px;
+    gap: 10px;
+    font-size: 1.20em;
+    ;
+}
 
-/* .earlyAccess{
+.hero-container h1{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 80px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    padding-top: 20px;
+}
+.hero-container p{
+    max-width: 740px;
+    font-size: 1.25em;
+    color: white;
+    padding: 20px 0px;
+    /* align-items: center; */
+}
+
+.hero-container .buttons{
     display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 10px;
+    
+}
+.hero-container .arrowButton{
+    display: flex;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    align-items: center;
+
+}
+.hero-container .arrowButton:hover{
+    background-color: #2d5e41;
+    /* color: #469165; */
+    box-shadow: 0px 0px 5px white;
+    cursor: pointer;
+    /* font-weight: 900; */
+}
+/* .hero-container .arrowButton:hover .arrowIcon{
+    color: ;
+} */
+
+
+.hero-container .playButton{
+    display: inline-flex;
     align-items: center;
     gap: 10px;
-    padding: 10px 20px;
-    background-color: #469165;
-    background-size:;
-} */
-/* .earlyAccess .dot{
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: green;
-} */
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.hero-container .playButton .playIcon{
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: #ffffff;
+    stroke-width: 2;
+}
+
+.hero-container .playButton:hover{
+    cursor: pointer;
+    border-color: #469165;
+    box-shadow: 0 0 3px white;
+    /* border: transparent; */
+}
